@@ -1,1 +1,1 @@
-THIS PROJECT IS NOT COMPLETED AND IS STILL ONGOING
+Gesture Controlled robot that utilizes Baysian Inference for better gesture detection
