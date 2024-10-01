@@ -1,0 +1,106 @@
+[0.394s] Invoking command in '/home/om/gesture_bot/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake /home/om/gesture_bot/src/new_robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/gesture_bot/install/new_robot_controller
+[0.501s] -- The C compiler identification is GNU 11.4.0
+[0.626s] -- The CXX compiler identification is GNU 11.4.0
+[0.640s] -- Detecting C compiler ABI info
+[0.827s] -- Detecting C compiler ABI info - done
+[0.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.836s] -- Detecting C compile features
+[0.837s] -- Detecting C compile features - done
+[0.843s] -- Detecting CXX compiler ABI info
+[0.992s] -- Detecting CXX compiler ABI info - done
+[1.003s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.004s] -- Detecting CXX compile features
+[1.004s] -- Detecting CXX compile features - done
+[1.011s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.276s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.461s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.580s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.595s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.620s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.781s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.788s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.949s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.992s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.051s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.071s] -- Looking for pthread.h
+[2.156s] -- Looking for pthread.h - found
+[2.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.241s] -- Found Threads: TRUE  
+[2.328s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.332s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.365s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.392s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.424s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.443s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.820s] -- Configuring done
+[2.840s] -- Generating done
+[2.843s] -- Build files have been written to: /home/om/gesture_bot/build/new_robot_controller
+[2.860s] Invoked command in '/home/om/gesture_bot/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake /home/om/gesture_bot/src/new_robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/gesture_bot/install/new_robot_controller
+[2.862s] Invoking command in '/home/om/gesture_bot/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/gesture_bot/build/new_robot_controller -- -j8 -l8
+[2.948s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.949s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/keyboard_control.cpp.o[0m
+[2.988s] [ 50%] Built target ament_cmake_python_copy_new_robot_controller
+[3.343s] running egg_info
+[3.344s] creating new_robot_controller.egg-info
+[3.345s] writing new_robot_controller.egg-info/PKG-INFO
+[3.345s] writing dependency_links to new_robot_controller.egg-info/dependency_links.txt
+[3.345s] writing top-level names to new_robot_controller.egg-info/top_level.txt
+[3.345s] writing manifest file 'new_robot_controller.egg-info/SOURCES.txt'
+[3.349s] reading manifest file 'new_robot_controller.egg-info/SOURCES.txt'
+[3.349s] writing manifest file 'new_robot_controller.egg-info/SOURCES.txt'
+[3.397s] [ 50%] Built target ament_cmake_python_build_new_robot_controller_egg
+[11.658s] [ 75%] [32m[1mLinking CXX executable keyboard_control[0m
+[12.097s] [ 75%] Built target keyboard_control
+[15.149s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[15.880s] [100%] Built target simple_controller
+[15.892s] Invoked command in '/home/om/gesture_bot/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/gesture_bot/build/new_robot_controller -- -j8 -l8
+[15.928s] Invoking command in '/home/om/gesture_bot/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/gesture_bot/build/new_robot_controller
+[15.935s] -- Install configuration: ""
+[15.935s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/pythonpath.sh
+[15.935s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/pythonpath.dsv
+[15.935s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info
+[15.935s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[15.935s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/simple_controller.py
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/gesture_control.txt
+[15.936s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/__init__.py
+[15.963s] Listing '/home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller'...
+[15.963s] Compiling '/home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/__init__.py'...
+[15.964s] Compiling '/home/om/gesture_bot/install/new_robot_controller/local/lib/python3.10/dist-packages/new_robot_controller/simple_controller.py'...
+[15.967s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/include/include
+[15.967s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/include/include/new_robot_controller
+[15.968s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/include/include/new_robot_controller/simple_controller.hpp
+[15.968s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/lib/new_robot_controller/simple_controller
+[15.972s] -- Set runtime path of "/home/om/gesture_bot/install/new_robot_controller/lib/new_robot_controller/simple_controller" to ""
+[15.972s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/lib/new_robot_controller/keyboard_control
+[15.974s] -- Set runtime path of "/home/om/gesture_bot/install/new_robot_controller/lib/new_robot_controller/keyboard_control" to ""
+[15.974s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/launch
+[15.974s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/launch/joystick_teleop.launch.py
+[15.974s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/launch/simple_controller.launch.py
+[15.974s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/config
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/config/joy_config.yaml
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/config/new_robot_controllers.yaml
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/config/joy_teleop.yaml
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/lib/new_robot_controller/simple_controller.py
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/ament_index/resource_index/package_run_dependencies/new_robot_controller
+[15.975s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/ament_index/resource_index/parent_prefix_path/new_robot_controller
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.sh
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.dsv
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/path.sh
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/environment/path.dsv
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/local_setup.bash
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/local_setup.sh
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/local_setup.zsh
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/local_setup.dsv
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/package.dsv
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/ament_index/resource_index/packages/new_robot_controller
+[15.976s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig.cmake
+[15.977s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig-version.cmake
+[15.977s] -- Installing: /home/om/gesture_bot/install/new_robot_controller/share/new_robot_controller/package.xml
+[15.978s] Invoked command in '/home/om/gesture_bot/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/gesture_bot/build/new_robot_controller

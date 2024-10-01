@@ -1,0 +1,46 @@
+[1.240s] Invoking command in '/home/om/gesture_bot/src/gesture_control': PYTHONPATH=/home/om/gesture_bot/build/gesture_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/om/gesture_bot/build/gesture_control/build install --record /home/om/gesture_bot/build/gesture_control/install.log --single-version-externally-managed install_data
+[1.590s] running egg_info
+[1.591s] creating ../../build/gesture_control/gesture_control.egg-info
+[1.591s] writing ../../build/gesture_control/gesture_control.egg-info/PKG-INFO
+[1.591s] writing dependency_links to ../../build/gesture_control/gesture_control.egg-info/dependency_links.txt
+[1.591s] writing entry points to ../../build/gesture_control/gesture_control.egg-info/entry_points.txt
+[1.591s] writing requirements to ../../build/gesture_control/gesture_control.egg-info/requires.txt
+[1.591s] writing top-level names to ../../build/gesture_control/gesture_control.egg-info/top_level.txt
+[1.593s] writing manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[1.595s] reading manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[1.596s] writing manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[1.597s] running build
+[1.598s] running build_py
+[1.598s] creating /home/om/gesture_bot/build/gesture_control/build
+[1.598s] creating /home/om/gesture_bot/build/gesture_control/build/lib
+[1.599s] creating /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.599s] copying gesture_control/gesture_publisher.py -> /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.599s] copying gesture_control/gesture.py -> /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.600s] copying gesture_control/gesture_no_baysian.py -> /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.600s] copying gesture_control/__init__.py -> /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.600s] copying gesture_control/gesture_display.py -> /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control
+[1.600s] running install
+[1.600s] running install_lib
+[1.602s] creating /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.602s] copying /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control/gesture_publisher.py -> /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.603s] copying /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control/gesture.py -> /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.603s] copying /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control/gesture_no_baysian.py -> /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.603s] copying /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control/__init__.py -> /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.603s] copying /home/om/gesture_bot/build/gesture_control/build/lib/gesture_control/gesture_display.py -> /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control
+[1.603s] byte-compiling /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control/gesture_publisher.py to gesture_publisher.cpython-310.pyc
+[1.609s] byte-compiling /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control/gesture.py to gesture.cpython-310.pyc
+[1.609s] byte-compiling /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control/gesture_no_baysian.py to gesture_no_baysian.cpython-310.pyc
+[1.609s] byte-compiling /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control/__init__.py to __init__.cpython-310.pyc
+[1.610s] byte-compiling /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control/gesture_display.py to gesture_display.cpython-310.pyc
+[1.611s] running install_data
+[1.611s] creating /home/om/gesture_bot/install/gesture_control/share/ament_index
+[1.612s] creating /home/om/gesture_bot/install/gesture_control/share/ament_index/resource_index
+[1.612s] creating /home/om/gesture_bot/install/gesture_control/share/ament_index/resource_index/packages
+[1.612s] copying resource/gesture_control -> /home/om/gesture_bot/install/gesture_control/share/ament_index/resource_index/packages
+[1.612s] copying package.xml -> /home/om/gesture_bot/install/gesture_control/share/gesture_control
+[1.612s] running install_egg_info
+[1.617s] Copying ../../build/gesture_control/gesture_control.egg-info to /home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages/gesture_control-0.0.0-py3.10.egg-info
+[1.617s] running install_scripts
+[1.648s] Installing gesture_publisher script to /home/om/gesture_bot/install/gesture_control/lib/gesture_control
+[1.648s] writing list of installed files to '/home/om/gesture_bot/build/gesture_control/install.log'
+[1.741s] Invoked command in '/home/om/gesture_bot/src/gesture_control' returned '0': PYTHONPATH=/home/om/gesture_bot/build/gesture_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/gesture_bot/install/gesture_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/om/gesture_bot/build/gesture_control/build install --record /home/om/gesture_bot/build/gesture_control/install.log --single-version-externally-managed install_data
