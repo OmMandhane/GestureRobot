@@ -8,4 +8,4 @@ This project features a gesture-controlled differential drive robot implemented 
 - Control of a differential drive robot in a simulated environment
 
 ## Report
-You can read the full project report here: [Project Report (Google Drive)]([https://github.com/OmMandhane/yolo.git](https://drive.google.com/file/d/1mTUyjl304CRWWxEBHltMItVKB3PPhQmn/view?usp=sharing))
+You can read the full project report here: [Project Report (Google Drive)](https://drive.google.com/file/d/1mTUyjl304CRWWxEBHltMItVKB3PPhQmn/view?usp=sharing)
